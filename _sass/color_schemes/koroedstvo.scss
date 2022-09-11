@@ -1,0 +1,50 @@
+// Typography
+
+// $mono-font-family: "Hack", "SFMono-Regular", menlo, consolas, monospace;
+
+// Font size
+// `-sm` suffix is the size at the small (and above) media query
+
+$body-heading-line-height: 1.25;
+
+.highlight .table-wrapper {  
+    td,
+    pre {
+      @include fs-5;
+    }
+}
+
+// Colors
+
+$koroedstvo-bar: #FCD5A6;
+$koroedstvo-bar-darker: #F9C182;
+$cdr-light: #ADD4A0;
+$cdr-normal: #5EAB46;
+$cdr-darker: #568F44;
+
+$sidebar-color: $koroedstvo-bar;
+$body-text-color: $grey-dk-300;
+$link-color: $cdr-darker;
+$nav-child-link-color: darken($link-color, 10%);
+
+$feedback-color: $koroedstvo-bar-darker;
+
+.site-header {
+    border-bottom: $koroedstvo-bar-darker !important;
+}
+
+.site-footer {
+    color: darken($koroedstvo-bar, 25%) !important;
+}
+
+.main-content {
+    blockquote {        
+        color: $grey-dk-100;
+        background-color: $grey-lt-000;
+        margin: 0;
+        padding-top: $sp-1;
+        padding-bottom: $sp-1;
+        padding-left: $sp-5;
+        padding-right: $sp-5;
+    }
+}

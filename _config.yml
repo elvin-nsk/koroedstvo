@@ -1,0 +1,55 @@
+title: "Короедство"
+url: "https://koroedstvo.ru/"
+lang: ru
+
+remote_theme: just-the-docs/just-the-docs
+theme: "just-the-docs"
+color_scheme: koroedstvo
+
+# permalink: "/:path/:basename"
+# permalink: /:categories/:title
+permalink: /:title
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "_build.cmd", "_deploy.cmd", "_serve.cmd"]
+
+# Set a path/url to a logo that will be displayed instead of the title
+logo: "/assets/title.png"
+
+# Enable or disable the site search
+# Supports true (default) or false
+search_enabled: true
+
+# To disable support for mermaid diagrams (https://mermaid-js.github.io/mermaid/),
+# comment out the `mermaid` and `version` keys below
+# By default, consuming the theme as a gem leaves mermaid disabled; it is opt-in
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "9.1.6"
+  # Put any additional configuration, such as setting the theme, in _includes/mermaid_config.js
+  # See also docs/ui-components/code
+
+# Sort order for navigation links
+# nav_sort: case_insensitive # default, equivalent to nil
+nav_sort: case_sensitive # Capital letters sorted before lowercase
+
+# External navigation links
+nav_external_links:
+  - title: Короедство на youtube
+    url: https://www.youtube.com/channel/UC2xifV95FlDwQFatES__5wQ
+
+# Footer content
+# appears at the bottom of every page's main content
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Plugin settings
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-category-pages
+  - jekyll-default-layout
+  - jekyll-titles-from-headings

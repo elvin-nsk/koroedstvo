@@ -1,0 +1,73 @@
+<!-- Основной цикл -->
+<ul class="nav-list">  
+  {% for cat in site.data.categories %}
+    {% assign pgs = nil %}
+    <!-- Собираем список страниц для категории -->
+    {% assign pgs = site.pages | where_exp: "item", "item.categories contains cat.url" | sort: "nav_order" %} 
+    <!-- -->
+    <li class="nav-list-item{% if cat.url == page.categories[0] %} active{% endif %}">
+      <a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a>    
+      <a href="{{ pgs[0].url | relative_url }}" class="nav-list-link{% if page.url == node.url %} active{% endif %}">
+        {{ cat.title }}
+      </a>
+      <ul class="nav-list ">
+        {% for pg in pgs %}
+          {% unless pg.nav_exclude %}
+          <li class="nav-list-item">
+            <a href="{{ pg.url | relative_url }}" class="nav-list-link{% if page.url == pg.url %} active{% endif %}">
+              {{ pg.title }}
+            </a>
+          </li>
+          {% endunless %}
+        {% endfor %}
+        </ul>
+    </li> 
+  {% endfor %}
+  
+  {% assign nav_external_links = site.nav_external_links %}
+    {% for node in nav_external_links %}
+      <li class="nav-list-item external">
+        <a href="{{ node.url | absolute_url }}" class="nav-list-link external">
+          {{ node.title }}
+          {% unless node.hide_icon %}<svg viewBox="0 0 24 24" aria-labelledby="svg-external-link-title"><use xlink:href="#svg-external-link"></use></svg>{% endunless %}
+        </a>
+      </li>
+  {% endfor %}
+</ul>
+
+
+  {% for cat in site.categories %}
+    <h3>{{ cat[0] }}</h3>
+    <ul>
+      {% for post in cat[1] %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+
+
+{%- if page.collection == include.key -%}
+
+  {%- for node in pages_list -%}
+    {%- if node.parent == nil -%}
+      {%- if page.grand_parent == node.title or page.parent == node.title and page.grand_parent == nil -%}
+        {%- assign first_level_url = node.url | relative_url -%}
+      {%- endif -%}
+      {%- if node.has_children -%}
+        {%- assign children_list = pages_list | where: "parent", node.title -%}
+        {%- for child in children_list -%}
+          {%- if child.has_children -%}
+            {%- if page.url == child.url or page.parent == child.title and page.grand_parent == child.parent -%}
+              {%- assign second_level_url = child.url | relative_url -%}
+            {%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {% if page.has_children == true and page.has_toc != false %}
+    {%- assign toc_list = pages_list | where: "parent", page.title | where: "grand_parent", page.parent -%}
+  {%- endif -%}
+
+{%- endif -%}
