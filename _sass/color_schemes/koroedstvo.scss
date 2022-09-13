@@ -5,14 +5,7 @@
 // Font size
 // `-sm` suffix is the size at the small (and above) media query
 
-$body-heading-line-height: 1.25;
-
-.highlight .table-wrapper {  
-    td,
-    pre {
-      @include fs-5;
-    }
-}
+// $body-heading-line-height: 1.25;
 
 // Colors
 
@@ -40,11 +33,14 @@ $feedback-color: $koroedstvo-bar-darker;
 .main-content {
     blockquote {        
         color: $grey-dk-100;
-        background-color: $grey-lt-000;
+        // background-color: $grey-lt-000;
         margin: 0;
-        padding-top: $sp-1;
-        padding-bottom: $sp-1;
-        padding-left: $sp-5;
-        padding-right: $sp-5;
+        border-left: $sp-1 solid $grey-lt-300;
+        padding-left: $sp-4;
     }
 }
+
+code {
+    font-size: $font-size-4 !important;
+    line-height: $body-line-height;
+  }
