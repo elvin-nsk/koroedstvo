@@ -68,5 +68,5 @@ categories: [raster]
 
 ### Материалы по теме
 
-- [Разрешение файлов для печати и интернета](https://youtu.be/M1p2TxEIIWM)
-- [Растрирование вектора, артефакты сглаживания в #CorelDraw](https://youtu.be/n3UE--6iWw8)
+![Разрешение файлов для печати и интернета](https://youtu.be/M1p2TxEIIWM)
+![Растрирование вектора, артефакты сглаживания в #CorelDraw](https://youtu.be/n3UE--6iWw8)
