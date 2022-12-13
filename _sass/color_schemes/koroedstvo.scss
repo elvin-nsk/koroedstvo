@@ -5,7 +5,7 @@
 // Font size
 // `-sm` suffix is the size at the small (and above) media query
 
-// $body-heading-line-height: 1.25;
+// $body-heading-line-height: 2;
 
 // Colors
 
@@ -37,6 +37,18 @@ $feedback-color: $koroedstvo-bar-darker;
         margin: 0;
         border-left: $sp-1 solid $grey-lt-300;
         padding-left: $sp-4;
+    }
+
+    h1 {font-weight: 500;}
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    #toctitle {
+        margin-bottom: 0.75em !important;
     }
 }
 

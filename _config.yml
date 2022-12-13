@@ -14,6 +14,11 @@ exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "pac
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/assets/title.png"
 
+# External navigation links
+nav_external_links:
+  - title: Короедство на youtube
+    url: https://www.youtube.com/channel/UC2xifV95FlDwQFatES__5wQ
+
 # Enable or disable the site search
 # Supports true (default) or false
 search_enabled: true
@@ -31,11 +36,6 @@ mermaid:
 # Sort order for navigation links
 # nav_sort: case_insensitive # default, equivalent to nil
 nav_sort: case_sensitive # Capital letters sorted before lowercase
-
-# External navigation links
-nav_external_links:
-  - title: Короедство на youtube
-    url: https://www.youtube.com/channel/UC2xifV95FlDwQFatES__5wQ
 
 # Footer content
 # appears at the bottom of every page's main content
