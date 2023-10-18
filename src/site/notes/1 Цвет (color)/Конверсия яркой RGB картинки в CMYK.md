@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/1-czvet-color/konversiya-yarkoj-rgb-kartinki-v-cmyk/","created":"2023-10-09T12:57:03.979+07:00","updated":"2023-10-19T02:04:55.883+07:00"}
+{"dg-publish":true,"dg-permalink":"saturated-rgb-to-cmyk","permalink":"/saturated-rgb-to-cmyk/","created":"2023-10-09T12:57:03.979+07:00","updated":"2023-10-19T02:08:01.533+07:00"}
 ---
 
 # Конверсия яркой RGB картинки в CMYK
