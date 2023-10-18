@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/index/","tags":["gardenEntry"]}
+{"dg-publish":true,"permalink":"/index/","tags":["gardenEntry"],"created":"2023-10-09T12:57:04.030+07:00","updated":"2023-10-19T01:52:42.992+07:00"}
 ---
 
 # Об чём это всё
