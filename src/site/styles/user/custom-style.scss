@@ -18,7 +18,12 @@ body {
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
     // background-color: white;
-    --link-color: $cdr-darker;
+    /* Accent HSL values */
+    --accent-h: 106;    
+    --accent-l: 42%;
+    --accent-s: 36%;
+
+    // --link-color: $cdr-darker;
     .content {
       ::selection {
         background: $cdr-light;
