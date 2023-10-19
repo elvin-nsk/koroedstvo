@@ -1,13 +1,30 @@
+// Colors
+
+$koroedstvo-bar: #FCD5A6;
+$koroedstvo-bar-darker: #F9C182;
+$cdr-light: #ADD4A0;
+$cdr-normal: #5EAB46;
+$cdr-darker: #568F44;
+
+// $sidebar-color: $koroedstvo-bar;
+// $body-text-color: $grey-dk-300;
+// $link-color: $cdr-darker;
+// $nav-child-link-color: darken($link-color, 10%);
+
+
 body {
     /***
       ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
     // background-color: white;
-    //  .content {
+    .content {
+      ::selection {
+        background: $cdr-light;
+      }
     //   font-size: 14px;
     //  }
     //  h1 {
     //   color: black;
-    //  }
+    }
 }
