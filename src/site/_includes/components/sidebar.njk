@@ -14,7 +14,7 @@
                               <div class="toc">
                                     <div class="toc-title-container">
                                           <div class="toc-title">
-                                                On this page
+                                                Содержание
                                           </div>
                                     </div>
                                     <div class="toc-container">
@@ -33,7 +33,7 @@
                                           {%- if page.url == "/" -%}
                                                 {%- if graph.nodes[graph.homeAlias].backLinks.length === 0 -%}
                                                       <div class="backlink-card">
-                                                            <span class="no-backlinks-message">No other pages mentions this page</span>
+                                                            <span class="no-backlinks-message">Ссылок нет</span>
                                                       </div>
                                                 {%- endif -%}
                                           {%- for backlink in graph.nodes[graph.homeAlias].backLinks -%}
