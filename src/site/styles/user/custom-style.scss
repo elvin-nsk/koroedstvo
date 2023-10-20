@@ -27,13 +27,8 @@ body {
 
   .filetree-sidebar {
     background-color: var(--koroedstvo-bar);
-  }
-
-  .notelink.active-note {
-    background-color: var(--koroedstvo-bar-darker);
-  }
-
-  // --link-color: $cdr-darker;
+  }  
+  
   .content {
     ::selection {
       background: var(--cdr-light);
@@ -43,4 +38,13 @@ body {
   //  h1 {
   //   color: black;
   }
+
+  .notelink.active-note {
+    background-color: var(--koroedstvo-bar-darker);
+  }
+
+  .markdown-rendered blockquote {    
+    border-left-color: var(--blockquote-border-color);
+  }
+  
 }
