@@ -21,19 +21,23 @@ body {
   ***/
   // background-color: white;
 
+  --font-text-size: 16px;
+
   // --background-secondary: var(--koroedstvo-bar);
   --text-accent: var(--cdr-normal);
   --text-accent-hover: var(--cdr-darker);
 
   .filetree-sidebar {
     background-color: var(--koroedstvo-bar);
+    font-size: var(--font-text-size);
   }  
   
   .content {
+    font-size: var(--font-text-size);
     ::selection {
       background: var(--cdr-light);
     }
-  //   font-size: 14px;
+    // font-size: 16px;
   //  }
   //  h1 {
   //   color: black;
