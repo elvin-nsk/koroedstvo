@@ -45,5 +45,6 @@ body {
 
   .notelink.active-note {
     background-color: var(--koroedstvo-bar-darker);
+    transform: translateX(0);
   }  
 }
