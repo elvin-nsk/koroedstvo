@@ -7,7 +7,6 @@
 
 :root {
 
-
   --koroedstvo-bar: #FCD5A6;
   --koroedstvo-bar-darker: #F9C182;
   --cdr-light: #ADD4A0;
@@ -43,6 +42,8 @@ body {
   // --accent-l: var(--accent-l);   
 
   // --background-secondary: var(--koroedstvo-bar);
+
+  --text-accent: var(--cdr-normal);
 
   .filetree-sidebar {
     background-color: var(--koroedstvo-bar);
