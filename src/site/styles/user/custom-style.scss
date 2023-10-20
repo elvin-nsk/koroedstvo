@@ -27,7 +27,11 @@ body {
   --accent-s: var(--accent-s);
   --accent-l: var(--accent-l);   
 
-  --background-secondary: var(--koroedstvo-bar);
+  // --background-secondary: var(--koroedstvo-bar);
+
+  .filetree-sidebar {
+    background-color: var(--koroedstvo-bar);
+  }
 
   // --link-color: $cdr-darker;
   .content {
