@@ -24,8 +24,8 @@ body {
   --font-text-size: 16px;
 
   // --background-secondary: var(--koroedstvo-bar);
-  --text-accent: var(--cdr-normal);
-  --text-accent-hover: var(--cdr-darker);
+  --text-accent: var(--cdr-darker);
+  --text-accent-hover: darken(--cdr-darker, 25%);
 
   .filetree-sidebar {
     background-color: var(--koroedstvo-bar);
