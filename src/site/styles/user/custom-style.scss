@@ -25,11 +25,11 @@ body {
 
   // --background-secondary: var(--koroedstvo-bar);
   --text-accent: var(--cdr-darker);
-  --text-accent-hover: darken(--cdr-darker, 25%);
+  --text-accent-hover: darken(--cdr-darker, 10%);
 
   .filetree-sidebar {
     background-color: var(--koroedstvo-bar);
-    font-size: var(--font-text-size);
+    font-size: 0.95em;
   }  
   
   .content {
