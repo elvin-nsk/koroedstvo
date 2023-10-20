@@ -6,10 +6,18 @@
 // $nav-child-link-color: darken($link-color, 10%);
 
 :root {
+
+
+  --koroedstvo-bar: #FCD5A6;
+  --koroedstvo-bar-darker: #F9C182;
+  --cdr-light: #ADD4A0;
+  --cdr-normal: #5EAB46;
+  --cdr-darker: #568F44;
+
   --background-primary: rgb(32, 31, 31);
   --background-secondary: rgb(57, 56, 56);
   --text-normal: #dcddde;
-  --text-accent: rgb(97, 186, 245);
+  --text-accent: var(--cdr-normal);
   --file-margins: 32px;
 
   --callout-border-width: 0px;
@@ -28,16 +36,7 @@ body {
     IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
   ***/
   // background-color: white;
-  /* Accent HSL values */
-  --cdr-h: 106;      
-  --cdr-s: 42%;  
-  --cdr-l: 47%;
 
-  --koroedstvo-bar: #FCD5A6;
-  --koroedstvo-bar-darker: #F9C182;
-  --cdr-light: #ADD4A0;
-  --cdr-normal: hsl(var(--cdr-h), var(--cdr-s), var(--cdr-l));
-  --cdr-darker: #568F44;
 
   // --accent-h: var(--accent-h);        
   // --accent-s: var(--accent-s);
