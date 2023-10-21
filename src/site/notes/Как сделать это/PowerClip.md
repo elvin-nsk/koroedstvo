@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"powerclip","permalink":"/powerclip/","created":"2023-10-09T12:57:04.067+07:00","updated":"2023-10-20T14:58:59.228+07:00"}
+{"dg-publish":true,"dg-permalink":"powerclip","permalink":"/powerclip/","created":"2023-10-09T12:57:04.067+07:00","updated":"2023-10-20T15:32:58.547+07:00"}
 ---
 
 > [!FAQ] Вопрос
