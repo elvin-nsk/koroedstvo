@@ -108,7 +108,7 @@
             .split(/([^a-z]|[^\x00-\x7F])/)
         const contentIndex = new FlexSearch.Document({
             cache: true,
-            charset: "utf-8",
+            charset: "latin:extra",
             optimize: true,
             index: [
                 {
