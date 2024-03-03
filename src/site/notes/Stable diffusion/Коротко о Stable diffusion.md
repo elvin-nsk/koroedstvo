@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"about-stable-diffusion","permalink":"/about-stable-diffusion/","pinned":true,"tags":["sd"],"created":"2023-10-29T21:51:18.536+07:00","updated":"2024-03-03T12:17:42.850+07:00"}
+{"dg-publish":true,"dg-permalink":"about-stable-diffusion","permalink":"/about-stable-diffusion/","pinned":true,"created":"2023-10-29T21:51:18.536+07:00","updated":"2024-03-03T12:19:18.883+07:00"}
 ---
 
 В этом разделе я расскажу о своём небольшом опыте использования этой нейросети для генерации изображений.
