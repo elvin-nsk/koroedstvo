@@ -48,6 +48,7 @@ body {
     transform: translateX(0);
   } 
 
-  --tag-background: var(--cdr-light);
+  --tag-background: lighten(--cdr-light, 50%);
+  --tag-background-hover: var(--cdr-light);
 
 }
