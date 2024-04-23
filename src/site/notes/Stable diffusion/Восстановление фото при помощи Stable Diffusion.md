@@ -1,8 +1,6 @@
 ---
-{"dg-publish":true,"dg-permalink":"photo-restoration-sd","permalink":"/photo-restoration-sd/","created":"2024-04-12T14:38:02.790+07:00","updated":"2024-04-12T14:54:33.508+07:00"}
+{"dg-publish":true,"dg-permalink":"photo-restoration-sd","permalink":"/photo-restoration-sd/","created":"2024-04-12T14:38:02.790+07:00","updated":"2024-04-14T12:28:34.402+07:00"}
 ---
-
-
 
 На эту тему конечно куча статей есть от людей сильно прошаренных именно в [[Stable diffusion/Коротко о Stable diffusion\|Stable Diffusion]]. Расскажу в общих чертах, как это несколько раз делал составитель Короедства.
 
