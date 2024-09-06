@@ -3,7 +3,7 @@
     <title>Короедство</title>
     <link href="https://koroedstvo.ru/feed.xml" rel="self" >
     <link href="https://koroedstvo.ru" >
-    <updated>2024-09-06T07:28:56Z</updated>
+    <updated>2024-09-06T07:29:01Z</updated>
     <id>https://koroedstvo.ru</id>
         <entry>
             <title>
@@ -511,13 +511,31 @@
         </entry>
         <entry>
             <title>
+                Префлайты
+                
+            </title>
+            <updated>2024-09-06T07:28:32.489Z</updated>
+            <id>https://koroedstvo.ru/acrobat-preflight/</id>
+            <content type="html">
+                &lt;p&gt;В акробате один из основных инструментов обработки документа - это префлайты. &amp;quot;Предполётная подготовка&amp;quot;, значит. Это в смысле чтобы потом разборов полётов не было. Обычно слово &amp;quot;префлайт&amp;quot; употребляется в смысле проверки, но в акробате там и инструменты анализа и инструменты изменения документа. Наподобие фотошоповских экшенов - то есть пакетные наборы действий.&lt;/p&gt;
+&lt;p&gt;Чтобы заюзать префлайты, нам потребуется Acrobat Pro (не Reader). Кроме того, в последних версиях префлайты не ставятся сразу с акробатом, а подкачиваются при первом запуске. Запустить окно префлайтов можно либо сочетанием клавиш &lt;code&gt;Ctrl+Shift+x&lt;/code&gt;, либо через набор инструментов: &lt;code&gt;Tools&lt;/code&gt; - &lt;code&gt;Optimize PDF&lt;/code&gt;, после чего появится панель инструментов, на которой и будет &lt;code&gt;Preflight&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://koroedstvo.ru/img/user/assets/acrobat-tools-preflight.png&quot; alt=&quot;acrobat-tools-preflight.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Окно префлайта выглядит так:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://koroedstvo.ru/img/user/assets/acrobat-preflight.png&quot; alt=&quot;acrobat-preflight.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Префлайты бывают трёх видов: для проверки (&lt;em&gt;чеки&lt;/em&gt;), для изменения (&lt;em&gt;фиксапы&lt;/em&gt;) и &lt;em&gt;составные профили&lt;/em&gt;, которые сразу запускают несколько чеков и/или фиксапов, плюс ещё некоторые дополнительные, характерные только для сборных профилей, действия.&lt;/p&gt;
+
+            </content>
+            <link href="https://koroedstvo.ru/acrobat-preflight/" >
+        </entry>
+        <entry>
+            <title>
                 Как скривить текст в pdf
                 
             </title>
             <updated>2024-09-06T07:15:23.843Z</updated>
             <id>https://koroedstvo.ru/pdf-convert-to-outlines/</id>
             <content type="html">
-                &lt;p&gt;В &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://koroedstvo.ru/404&quot; target=&quot;&quot;&gt;префлайтах&lt;/a&gt; в библиотеке &lt;code&gt;Prepress...&lt;/code&gt; фиксап &lt;code&gt;Convert fonts to outlines&lt;/code&gt;:&lt;/p&gt;
+                &lt;p&gt;В &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://koroedstvo.ru/acrobat-preflight/&quot;&gt;префлайтах&lt;/a&gt; в библиотеке &lt;code&gt;Prepress...&lt;/code&gt; фиксап &lt;code&gt;Convert fonts to outlines&lt;/code&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://koroedstvo.ru/img/user/assets/preflight-convert-to-outlines.png&quot; alt=&quot;preflight-convert-to-outlines.png&quot; /&gt;&lt;/p&gt;
 
             </content>
