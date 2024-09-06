@@ -3,7 +3,7 @@
     <title>Короедство</title>
     <link href="https://koroedstvo.ru/feed.xml" rel="self" >
     <link href="https://koroedstvo.ru" >
-    <updated>2024-09-04T10:22:57Z</updated>
+    <updated>2024-09-06T07:28:56Z</updated>
     <id>https://koroedstvo.ru</id>
         <entry>
             <title>
@@ -386,7 +386,7 @@
                 Что влияет на скорость работы корела
                 
             </title>
-            <updated>2023-10-19T19:14:54.836Z</updated>
+            <updated>2024-08-14T07:57:44.211Z</updated>
             <id>https://koroedstvo.ru/corel-speed/</id>
             <content type="html">
                 &lt;p&gt;Ну, во-первых, стоит прочесть про &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://koroedstvo.ru/garbage-cleaning/&quot;&gt;оптимизацию и очистку мусора&lt;/a&gt;. а тут мы поговорим про прочие системные факторы, например, то же железо.&lt;/p&gt;
@@ -508,6 +508,20 @@
 
             </content>
             <link href="https://koroedstvo.ru/text/" >
+        </entry>
+        <entry>
+            <title>
+                Как скривить текст в pdf
+                
+            </title>
+            <updated>2024-09-06T07:15:23.843Z</updated>
+            <id>https://koroedstvo.ru/pdf-convert-to-outlines/</id>
+            <content type="html">
+                &lt;p&gt;В &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://koroedstvo.ru/404&quot; target=&quot;&quot;&gt;префлайтах&lt;/a&gt; в библиотеке &lt;code&gt;Prepress...&lt;/code&gt; фиксап &lt;code&gt;Convert fonts to outlines&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://koroedstvo.ru/img/user/assets/preflight-convert-to-outlines.png&quot; alt=&quot;preflight-convert-to-outlines.png&quot; /&gt;&lt;/p&gt;
+
+            </content>
+            <link href="https://koroedstvo.ru/pdf-convert-to-outlines/" >
         </entry>
         <entry>
             <title>
