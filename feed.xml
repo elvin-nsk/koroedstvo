@@ -3,7 +3,7 @@
     <title>Короедство</title>
     <link href="https://koroedstvo.ru/feed.xml" rel="self" >
     <link href="https://koroedstvo.ru" >
-    <updated>2024-09-06T07:31:48Z</updated>
+    <updated>2024-09-06T07:33:55Z</updated>
     <id>https://koroedstvo.ru</id>
         <entry>
             <title>
@@ -514,7 +514,7 @@
                 Префлайты
                 
             </title>
-            <updated>2024-09-06T07:31:20.449Z</updated>
+            <updated>2024-09-06T07:33:30.733Z</updated>
             <id>https://koroedstvo.ru/acrobat-preflight/</id>
             <content type="html">
                 &lt;p&gt;В акробате один из основных инструментов обработки документа - это префлайты. &amp;quot;Предполётная подготовка&amp;quot;, значит. Это в смысле чтобы потом разборов полётов не было. Обычно слово &amp;quot;префлайт&amp;quot; употребляется в смысле проверки, но в акробате там и инструменты анализа и инструменты изменения документа. Наподобие фотошоповских экшенов - то есть пакетные наборы действий.&lt;/p&gt;
@@ -522,7 +522,7 @@
 &lt;p&gt;&lt;img src=&quot;https://koroedstvo.ru/img/user/assets/acrobat-tools-preflight.png&quot; alt=&quot;acrobat-tools-preflight.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Окно префлайта выглядит так:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://koroedstvo.ru/img/user/assets/acrobat-preflight.png&quot; alt=&quot;acrobat-preflight.png&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;В окне мы видим список префлайт-профилей. Профили бывают трёх видов: для проверки (&lt;em&gt;чеки&lt;/em&gt;), для изменения (&lt;em&gt;фиксапы&lt;/em&gt;) и &lt;em&gt;составные профили&lt;/em&gt;, которые сразу запускают несколько чеков и/или фиксапов, плюс ещё некоторые дополнительные, характерные только для сборных профилей, действия.&lt;/p&gt;
+&lt;p&gt;В окне мы видим список префлайт-профилей. Профили бывают трёх видов: для проверки (&lt;em&gt;чеки&lt;/em&gt;), для изменения (&lt;em&gt;фиксапы&lt;/em&gt;) и &lt;em&gt;составные профили&lt;/em&gt;, которые сразу запускают несколько чеков и/или фиксапов, плюс ещё некоторые дополнительные, характерные только для составных профилей, действия.&lt;/p&gt;
 
             </content>
             <link href="https://koroedstvo.ru/acrobat-preflight/" >
