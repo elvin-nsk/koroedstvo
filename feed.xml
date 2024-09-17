@@ -3,7 +3,7 @@
     <title>Короедство</title>
     <link href="https://koroedstvo.ru/feed.xml" rel="self" >
     <link href="https://koroedstvo.ru" >
-    <updated>2024-09-06T07:34:29Z</updated>
+    <updated>2024-09-17T11:40:51Z</updated>
     <id>https://koroedstvo.ru</id>
         <entry>
             <title>
@@ -226,6 +226,35 @@
 
             </content>
             <link href="https://koroedstvo.ru/links/" >
+        </entry>
+        <entry>
+            <title>
+                Выбор монитора
+                
+            </title>
+            <updated>2024-09-17T11:40:09.613Z</updated>
+            <id>https://koroedstvo.ru/display/</id>
+            <content type="html">
+                &lt;p&gt;Что в монике главное.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Размер&lt;/strong&gt;. Размер — дело вкуса, тут важно под этот самый размер подобрать разрешение матрицы. Я люблю &lt;strong&gt;крупный пиксель&lt;/strong&gt;, чтобы этот самый пиксель видеть, хотя бы в очках. Кроме того, с крупным пикселем удобоваримее работает старый софт, который не умеет увеличиваться средствами 11-й винды.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Мне нравится размер 27 дюймов, и для него подходит разрешение FullHD (1920×1080).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Тип матрицы — &lt;strong&gt;IPS&lt;/strong&gt;. Может быть, и VA ничего, но не знаю, не щупал.&lt;/p&gt;
+&lt;p&gt;Подключение только &lt;strong&gt;DVI&lt;/strong&gt; или DisplayPort, никакого VGA.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;HDMI тоже не стоит: там есть режимы, которые режут битность цвета, в общем, нафиг.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Желателен заводской режим &lt;strong&gt;sRGB&lt;/strong&gt; (можно посмотреть, скачав для приглянувшейся модели мануал).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Если его нет — ну что ж, можно попробовать сбросить все настройки на по умолчанию, чтобы профиль был &amp;quot;нейтральный&amp;quot; или что-нибудь в этом роде, чтобы яркость-контрастность стояло по умолчанию (обычно там посередине ползунки).&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;v-itoge&quot; tabindex=&quot;-1&quot;&gt;В итоге,&lt;/h2&gt;
+&lt;p&gt;если сделать всё правильно, достаточно подключить монитор, выставить режим sRGB в настройках и не ставить никаких профилей - или поставить профиль sRGB, что одно и то же. И у вас будет база для правильного отображения цвета.&lt;/p&gt;
+&lt;p&gt;Проверить правильность можно утилиткой &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://koroedstvo.ru/404&quot; target=&quot;&quot;&gt;CLTest&lt;/a&gt;. Инструкция в комплекте, она немного устаревшая, ещё для эпохи CRT, но смысл в том, чтобы при запуске поле было серым градиентом, если цветнит - настройка моника неправильная.&lt;/p&gt;
+
+            </content>
+            <link href="https://koroedstvo.ru/display/" >
         </entry>
         <entry>
             <title>
