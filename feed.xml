@@ -3,7 +3,7 @@
     <title>Короедство</title>
     <link href="https://koroedstvo.ru/feed.xml" rel="self" >
     <link href="https://koroedstvo.ru" >
-    <updated>2024-09-17T11:40:51Z</updated>
+    <updated>2024-09-17T11:46:03Z</updated>
     <id>https://koroedstvo.ru</id>
         <entry>
             <title>
@@ -232,7 +232,7 @@
                 Выбор монитора
                 
             </title>
-            <updated>2024-09-17T11:40:09.613Z</updated>
+            <updated>2024-09-17T11:45:29.959Z</updated>
             <id>https://koroedstvo.ru/display/</id>
             <content type="html">
                 &lt;p&gt;Что в монике главное.&lt;/p&gt;
@@ -251,7 +251,7 @@
 &lt;/blockquote&gt;
 &lt;h2 id=&quot;v-itoge&quot; tabindex=&quot;-1&quot;&gt;В итоге,&lt;/h2&gt;
 &lt;p&gt;если сделать всё правильно, достаточно подключить монитор, выставить режим sRGB в настройках и не ставить никаких профилей - или поставить профиль sRGB, что одно и то же. И у вас будет база для правильного отображения цвета.&lt;/p&gt;
-&lt;p&gt;Проверить правильность можно утилиткой &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://koroedstvo.ru/404&quot; target=&quot;&quot;&gt;CLTest&lt;/a&gt;. Инструкция в комплекте, она немного устаревшая, ещё для эпохи CRT, но смысл в том, чтобы при запуске поле было серым градиентом, если цветнит - настройка моника неправильная.&lt;/p&gt;
+&lt;p&gt;Проверить правильность можно утилиткой &lt;a href=&quot;https://koroedstvo.ru/files/CLTest.zip&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;CLTest&lt;/a&gt;. Инструкция в комплекте, она немного устаревшая, ещё для эпохи CRT, но смысл в том, чтобы при запуске поле было серым градиентом, если цветнит - настройка моника неправильная.&lt;/p&gt;
 
             </content>
             <link href="https://koroedstvo.ru/display/" >
