@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ru">
 <head>
-<title>Установка и обслуживание шрифтов</title>
+<title>Почему бы не печатать красками RGB</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -248,7 +248,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/fonts-management/">Установка и обслуживание шрифтов </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/fonts-management/">Установка и обслуживание шрифтов </a>
 </div>
 </div>
 </div>
@@ -282,7 +282,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/why-not-RGB-inks/">Почему бы не печатать красками RGB </a>
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/why-not-RGB-inks/">Почему бы не печатать красками RGB </a>
 </div>
 </div>
 </div>
@@ -319,86 +319,33 @@ CTRL + K
 <script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"utf-8",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2024-09-23T17:54:21.031Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2024-09-23T17:54:21.031Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2024-09-23T17:54:21.031Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
-<h1 data-note-icon="">Установка и обслуживание шрифтов</h1>
+<h1 data-note-icon="">Почему бы не печатать красками RGB</h1>
 <div class="header-meta">
 <div class="header-tags">
 </div>
-<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2023-10-09T12:57:03.979+07:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-01-08T18:33:01.924+07:00"></span></div></div></div>
+<div class="timestamps"><div><i icon-name="calendar-plus"></i> <span class="human-date" data-date="2024-09-23T12:37:11.040+07:00"></span></div><div><i icon-name="calendar-clock"></i> <span class="human-date" data-date="2024-09-24T00:53:34.489+07:00"></span></div></div></div>
 </header>
-<p>Расскажу, как правильно устанавливать шрифты, если работаете преимущественно в кореле, и как можно попробовать починить, если слетели.</p>
-<h2 id="osnovnye-princzipy" tabindex="-1">Основные принципы</h2>
-<p>В системной папке <code>Windows\Fonts</code> лежат только системные шрифты.</p>
-<p>Остальные шрифты устанавливаются менеджером шрифтов &quot;с места&quot;, то есть подключаются в систему без копирования в системную папку.</p>
-<p>Если что-то сломалось - отключаем свои шрифты и восстанавливаем системные.</p>
-<h2 id="ustanovka" tabindex="-1">Установка</h2>
-<p>С корелом до 17-й версии включительно идёт менеджер шрифтов <em>Font Navigator</em>, а с 18-й версии - <em>Font Manager</em>. Это, прямо скажем, не самые удобные менеджеры шрифтов, но у них есть одна полезнейшая фича. Если указать им место, где вы храните все шрифты (то есть <em>базу шрифтов</em>), то, при открытии в кореле макета с неустановленным шрифтом, они могут найти этот шрифт в базе и задействовать его. Font Navigator временно, до перезагрузки, подключает шрифт в систему. Font Manager вообще умеет задействовать шрифты в кореле без установки в систему. Поэтому эти менеджеры дают удобство, особенно при работе с большим количеством чужих макетов.</p>
-<p>Тут важно в принципе пользоваться каким-нибудь менеджером шрифтов, потому что только так можно подключить шрифт без копирования в системную папку.</p>
-<p>Схема такая: храним шрифты (желательно) в одном месте, создаём понятную вам базу шрифтов в вашем менеджере (все ваши шрифты вообще). Из этой базы создаём пресет(ы) тех шрифтов, которыми будете пользоваться и которые будут подключены. Количество шрифтов не должно быть запредельным. Думаю, что для обычного подключения максимум где-то 1000 шрифтов, дальше уже будут проблемы. Возможно, в Font Manager'е можно безболезненно задействовать (без подключения в систему) и большее количество - но точно не скажу, я работаю в 16-м кореле, и у меня, соотвественно, Font Navigator.</p>
-<p>Естественно, что менеджер шрифтов, через который шрифты устанавливаются, должен быть один, все не-системные шрифты должны управляться из одного места.</p>
-<p>В системной папке должны лежать только те шрифты, которые ставятся с программами и системой (винда, офис, адоб).</p>
-<p>Так что если у вас не чистая система, то, чтобы &quot;сбросить&quot; систему шрифтов и начать с чистого листа, переходите сразу к пункту &quot;жёсткохардовый способ&quot;.</p>
-<h2 id="pochinka-sistemy-shriftov" tabindex="-1">Починка системы шрифтов</h2>
-<p>Время от времени вышеуказанная прекрасная схема слетает. Можно, конечно, по старинке переставить винду :). Но есть и более бескровный вариант.</p>
-<p>Для такого периодического обнуления системы шрифтов, нам понадобится, во-первых, архив тех шрифтов, которые должны находиться в системной папке, во-вторых - reg-файл той ветки реестра, где эти шрифты стоят, и там, соответственно, только эти шрифты, ничего лишнего. Ссылки на эти файлы для семёрки и десятки будут в конце заметки.</p>
-<p>При этом есть два способа сброса: мягкий и жёсткий. Обычно хватает мягкого, жёсткий способ хорош, в основном, если есть подозрение, что заменены сами файлы системных шрифтов.</p>
-<h3 id="melkomyagkij-sposob" tabindex="-1">Мелкомягкий способ</h3>
-<p>Отключаем наш(и) набор(ы) шрифтов в менеджере.</p>
-<p>Сносим в реестре ветку <code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts</code>.</p>
-<p>Тут же импортируем наш reg-файл, то есть воссоздаём все подключения системных шрифтов в девственном виде. Перезагружаемся, подключаем наш набор шрифтов обратно.</p>
-<p>Приложенные reg-файлы уже содержат команду предварительного удаления ветки реестра - так что их можно просто импортировать.</p>
-<h3 id="zhyostkohardovyj-sposob" tabindex="-1">Жёсткохардовый способ</h3>
-<p>Если в системной папке всё совсем запущено: много мусора или удалена/заменена часть системных шрифтов.</p>
-<p>Отключаем набор шрифтов, сносим ветку, импортируем reg-файл, как в мягком способе.</p>
-<p>Загружаемся с какого-нибудь live-загрузочного диска/флешки с системой (например с популярной сборки от <a href="https://sergeistrelec.name" target="_blank" class="external-link">Strelec</a>).</p>
-<p>Удаляем всё из папки системных шрифтов <code>Windows\Fonts</code>.</p>
-<p>Копируем туда архив верных системных шрифтов.</p>
-<p>Перезагружаемся в систему, подключаем наш(и) набор(ы) шрифтов обратно.</p>
-<h2 id="fajly" tabindex="-1">Файлы</h2>
-<p><a href="https://cloud.mail.ru/public/9fvH/dMUaGGPnK" target="_blank" class="external-link">Архивы шрифтов и reg-файлы для обнуления</a></p>
-<p>Что по ссылке:</p>
-<ul>
-<li><code>шрифты Windows 7.7z</code> - родные шрифты от Windows 7</li>
-<li><code>шрифты Windows 7.reg</code> - файл реестра для них</li>
-<li><code>шрифты Windows 7 + Office 10.7z</code> - родные шрифты от Windows 7 плюс шрифты десятого офиса (то есть то, что находится в системной папке при установке чистой системы и офиса)</li>
-<li><code>шрифты Windows 7 + Office 10.reg</code> - файл реестра для винды+офиса</li>
-<li><code>шрифты Windows 7 + Office 10 без кракозябр.reg</code> (<em>рекомендую</em>) - файл реестра для винды+офиса, который не подключает ряд офисных шрифтов с отсутствующей кириллицей.</li>
-<li><code>шрифты Windows 10.7z</code> - родные шрифты от Windows 10</li>
-<li><code>шрифты Windows 10.reg</code> - файл реестра для них</li>
-</ul>
-<blockquote>
-<p>Пробовал сделать связку сразу с офисом, как в семёрке, но столкнулся с пропаданием иконок. Пока не понял, в чём дело.</p>
-</blockquote>
+<p>Почему для печати используется именно цмик? Ведь вокруг нас всё в ргб: глаз видит в ргб, в матрице фотоаппарата — ргб-сенсоры, сканер тоже сканирует в ргб, ну и наконец экран монитора тоже светит в ргб. Почему бы не заправить в принтер краски Red, Green и Blue и ими печатать?</p>
+<p>Давайте разберёмся.</p>
+<p>RGB — это стимулы, которые воздействуют на сетчатку глаза или матрицу камеры. Проще всего представить как лампочки. Нет света — чёрный цвет. Горят две из них — какой-то яркий: например, если горят R и G — то ярко-жёлтый. Горят все три — белый. Чем больше лампочек горит, чем больше стимулов приходит — тем ярче цвет, тем ближе к белому.</p>
+<p>Теперь давайте возьмём ведро красной краски. Если мы мазнём такой краской по бумаге — получим условный Red. Что при этом происходит. Белый цвет бумаги отражает весь цветовой спектр: R, G и B. Красная краска, чтобы быть красной, перекрывает части спектра G и B, чтобы от бумаги в глаз отражался только R:</p>
+<p><img src="/img/user/assets/red-ink.png" alt="red-ink.png"></p>
+<p>То есть можно сказать, что суть красной краски в том, что она <em>не-красная</em>: она закрывает всё, кроме красного. Красный <em>краситель</em> в чём-то противоположен красному <em>цвету</em>: он сам не излучает красный свет, но он мешает другим цветам излучаться. Зелёный лист на дереве, если сказать упрощённо, так же поглощает R и B, а отражает G. Ну а если мы возьмём синюю краску, то она, соответственно, перекроет части спектра, соответствующие R и G.</p>
+<p>Но при печати мы занимаемся смешиванием цветов через наложение полупрозрачных слоёв краски. Как нам получить, скажем, жёлтый цвет? Мы уже говорили выше, что жёлтый получается смешением красного и зелёного <em>стимулов</em>. Но смешав <em>краски</em> R и G, мы полностью перекроем весь отражённый свет от бумаги, получив чёрный:</p>
+<p><img src="/img/user/assets/red+green-inks.png" alt="red+green-inks.png"></p>
+<p>Получается, что краски RGB не годятся в качестве компонентов для смешения: они <strong>уже слишком тёмные</strong>. Нам надо взять какие-то более светлые красители, которые могут перекрыть меньшую часть спектра, таким образом у нас будет больший простор для смешивания:</p>
+<p><img src="/img/user/assets/thin-inks.png" alt="thin-inks.png"></p>
+<p>Такими красителями, условно &quot;не-R&quot;, &quot;не-G&quot; и &quot;не-B&quot;, мы можем выборочно играть основными цветовыми примитивами RGB, составляя из них нужные цвета.</p>
+<p>Наконец-то мы можем получить наш жёлтый. Для этого понадобится краситель &quot;не-B&quot;, который перекроет синюю часть спектра и оставит R и G:</p>
+<p><img src="/img/user/assets/not-B-ink.png" alt="not-B-ink.png"></p>
+<p>Взяв &quot;не-R&quot; и &quot;не-B&quot;, мы получим зелёный:</p>
+<p><img src="/img/user/assets/not-R-and-not-B-is-green.png" alt="not-R-and-not-B-is-green.png"></p>
+<p>И так далее.</p>
+<p>Осталось только обозвать красители по-человечески, в соответствии с тем, как они выглядят в чистом виде — и вот мы с вами открыли CMYK. Правда, пока ещё без буквы K, но это уже тема, достойная отдельного разговора.</p>
 </main>
 <aside>
 <div class="sidebar">
 <div class="sidebar-container">
-<div class="toc">
-<div class="toc-title-container">
-<div class="toc-title">
-Содержание
-</div>
-</div>
-<div class="toc-container">
-<nav class="toc">
-<ol>
-<li><a href="#osnovnye-princzipy">Основные принципы</a>
-</li>
-<li><a href="#ustanovka">Установка</a>
-</li>
-<li><a href="#pochinka-sistemy-shriftov">Починка системы шрифтов</a>
-<ol>
-<li><a href="#melkomyagkij-sposob">Мелкомягкий способ</a>
-</li>
-<li><a href="#zhyostkohardovyj-sposob">Жёсткохардовый способ</a>
-</li>
-</ol>
-</li>
-<li><a href="#fajly">Файлы</a>
-</li>
-</ol>
-</nav>
-</div>
-</div>
 <div class="backlinks">
 <div class="backlink-title" style="margin:4px 0!important">Ссылки на эту страницу</div>
 <div class="backlink-list"><div class="backlink-card">
