@@ -3,14 +3,14 @@
     <title>Короедство</title>
     <link href="https://koroedstvo.ru/feed.xml" rel="self" >
     <link href="https://koroedstvo.ru" >
-    <updated>2024-09-23T17:54:30Z</updated>
+    <updated>2024-09-23T18:00:33Z</updated>
     <id>https://koroedstvo.ru</id>
         <entry>
             <title>
                 Почему бы не печатать красками RGB
                 
             </title>
-            <updated>2024-09-23T17:53:34.489Z</updated>
+            <updated>2024-09-23T17:59:58.097Z</updated>
             <id>https://koroedstvo.ru/why-not-RGB-inks/</id>
             <content type="html">
                 &lt;p&gt;Почему для печати используется именно цмик? Ведь вокруг нас всё в ргб: глаз видит в ргб, в матрице фотоаппарата — ргб-сенсоры, сканер тоже сканирует в ргб, ну и наконец экран монитора тоже светит в ргб. Почему бы не заправить в принтер краски Red, Green и Blue и ими печатать?&lt;/p&gt;
@@ -27,7 +27,7 @@
 &lt;p&gt;Наконец-то мы можем получить наш жёлтый. Для этого понадобится краситель &amp;quot;не-B&amp;quot;, который перекроет синюю часть спектра и оставит R и G:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://koroedstvo.ru/img/user/assets/not-B-ink.png&quot; alt=&quot;not-B-ink.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Взяв &amp;quot;не-R&amp;quot; и &amp;quot;не-B&amp;quot;, мы получим зелёный:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://koroedstvo.ru/img/user/assets/not-R-and-not-B-is-green.png&quot; alt=&quot;not-R-and-not-B-is-green.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://koroedstvo.ru/img/user/assets/not-R-plus-not-B.png&quot; alt=&quot;not-R-plus-not-B.png&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;И так далее.&lt;/p&gt;
 &lt;p&gt;Осталось только обозвать красители по-человечески, в соответствии с тем, как они выглядят в чистом виде — и вот мы с вами открыли CMYK. Правда, пока ещё без буквы K, но это уже тема, достойная отдельного разговора.&lt;/p&gt;
 
