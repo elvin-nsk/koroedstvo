@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-permalink":"why-not-RGB-inks","permalink":"/why-not-RGB-inks/","created":"2024-09-23T12:37:11.040+07:00","updated":"2024-09-24T00:53:34.489+07:00"}
+{"dg-publish":true,"dg-permalink":"why-not-RGB-inks","permalink":"/why-not-RGB-inks/","created":"2024-09-23T12:37:11.040+07:00","updated":"2024-09-24T00:59:58.097+07:00"}
 ---
 
 Почему для печати используется именно цмик? Ведь вокруг нас всё в ргб: глаз видит в ргб, в матрице фотоаппарата — ргб-сенсоры, сканер тоже сканирует в ргб, ну и наконец экран монитора тоже светит в ргб. Почему бы не заправить в принтер краски Red, Green и Blue и ими печатать?
@@ -30,7 +30,7 @@ RGB — это стимулы, которые воздействуют на се
 
 Взяв "не-R" и "не-B", мы получим зелёный:
 
-![not-R-and-not-B-is-green.png](/img/user/assets/not-R-and-not-B-is-green.png)
+![not-R-plus-not-B.png](/img/user/assets/not-R-plus-not-B.png)
 
 И так далее.
 
