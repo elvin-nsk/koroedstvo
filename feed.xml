@@ -3,7 +3,7 @@
     <title>Короедство</title>
     <link href="https://koroedstvo.ru/feed.xml" rel="self" >
     <link href="https://koroedstvo.ru" >
-    <updated>2024-09-23T18:05:46Z</updated>
+    <updated>2024-11-24T18:43:30Z</updated>
     <id>https://koroedstvo.ru</id>
         <entry>
             <title>
@@ -442,6 +442,23 @@
         </entry>
         <entry>
             <title>
+                Параметры вставки текста из буфера обмена
+                
+            </title>
+            <updated>2024-11-24T18:42:34.134Z</updated>
+            <id>https://koroedstvo.ru/text-paste/</id>
+            <content type="html">
+                &lt;p&gt;Если вставлять &lt;em&gt;rich text&lt;/em&gt;, то есть текст со свойствами оформления, например из Word&#39;а, то появится вот окошко, где спросят, какое оформление оставить.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://koroedstvo.ru/img/user/assets/text-paste.png&quot; alt=&quot;text-paste.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Если в этом окошке поставить галочку &lt;code&gt;Don&#39;t show this warning again&lt;/code&gt;, то оно не будет показываться больше, снова включить его можно в настройках корела.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://koroedstvo.ru/img/user/assets/settings-warnings-text-paste.png&quot; alt=&quot;settings-warnings-text-paste.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;При вставке обычного текста, например, из блокнота - текст всегда вставляется без оформления, то есть используется оформление из корела.&lt;/p&gt;
+
+            </content>
+            <link href="https://koroedstvo.ru/text-paste/" >
+        </entry>
+        <entry>
+            <title>
                 Что влияет на скорость работы корела
                 
             </title>
@@ -510,21 +527,6 @@
         </entry>
         <entry>
             <title>
-                Rendering resolution
-                
-            </title>
-            <updated>2024-09-20T21:23:50.793Z</updated>
-            <id>https://koroedstvo.ru/rendering-resolution/</id>
-            <content type="html">
-                &lt;p&gt;При экспорте в сложный формат, который может сочетать и вектор и растр (например, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#pdf&quot;&gt;#pdf&lt;/a&gt; ), корел растеризует разные эффекты: линзы, прозрачности, mesh fill&#39;ы. Короче говоря, то, что нельзя адекватно воспроизвести в целевом формате или просто корел не умеет такое конвертировать без искажения. То же самое он делает при отправке на печать.&lt;/p&gt;
-&lt;p&gt;И вот в этой опции — &lt;em&gt;Rendering resolution&lt;/em&gt; — мы можем задать разрешение этой самой растеризации. По умолчанию там стандартные 300 dpi. Однако, если мы делаем, например, изображение большого размера, 300 dpi может быть черезчур, и итоговый файл будет гигантским. Или корел вовсе не справится и упадёт. Так что про этот параметр надо тоже помнить и задавать там соответственно.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://koroedstvo.ru/img/user/assets/rendering-resolution.png&quot; alt=&quot;rendering-resolution.png&quot; /&gt;&lt;/p&gt;
-
-            </content>
-            <link href="https://koroedstvo.ru/rendering-resolution/" >
-        </entry>
-        <entry>
-            <title>
                 Как настроить новый документ
                 
             </title>
@@ -538,6 +540,21 @@
 
             </content>
             <link href="https://koroedstvo.ru/new-doc-settings/" >
+        </entry>
+        <entry>
+            <title>
+                Rendering resolution
+                
+            </title>
+            <updated>2024-09-20T21:23:50.793Z</updated>
+            <id>https://koroedstvo.ru/rendering-resolution/</id>
+            <content type="html">
+                &lt;p&gt;При экспорте в сложный формат, который может сочетать и вектор и растр (например, &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#pdf&quot;&gt;#pdf&lt;/a&gt; ), корел растеризует разные эффекты: линзы, прозрачности, mesh fill&#39;ы. Короче говоря, то, что нельзя адекватно воспроизвести в целевом формате или просто корел не умеет такое конвертировать без искажения. То же самое он делает при отправке на печать.&lt;/p&gt;
+&lt;p&gt;И вот в этой опции — &lt;em&gt;Rendering resolution&lt;/em&gt; — мы можем задать разрешение этой самой растеризации. По умолчанию там стандартные 300 dpi. Однако, если мы делаем, например, изображение большого размера, 300 dpi может быть черезчур, и итоговый файл будет гигантским. Или корел вовсе не справится и упадёт. Так что про этот параметр надо тоже помнить и задавать там соответственно.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://koroedstvo.ru/img/user/assets/rendering-resolution.png&quot; alt=&quot;rendering-resolution.png&quot; /&gt;&lt;/p&gt;
+
+            </content>
+            <link href="https://koroedstvo.ru/rendering-resolution/" >
         </entry>
         <entry>
             <title>
